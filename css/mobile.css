@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:600px){
+	.main-wrapper {
+		display: grid;
+		grid-gap: 15px;
+		grid-template-columns: 100%;
+		margin-top: 30px;
+		width: 80%;
+		height: auto;
+	}
+	
+	.previous-post-container {
+		display: grid;
+		/*grid-gap: 15px;*/
+		grid-template-columns: 100%;
+		width: 100%;
+		margin-top: 30px;
+	}
+	
+	.other-user-container {
+		display: grid;
+		grid-gap: 15px;
+		grid-template-columns: 100%;
+		width: 100%;
+		margin-top: 30px;
+	}
+	
+	.btn {
+		background-color: #F5375C;
+		border: none;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 3px;
+		margin-right: 3px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-family: Roboto-Thin;
+		font-size: 15px;
+		font-weight: 600;
+	}
+	
+	#create-post-caption {
+		font-family: Roboto-Thin;
+		font-size: 20px;
+		width: 80%;
+		height: 100px;
+		resize: none;
+		margin-top: 10px;
+	}
+}
