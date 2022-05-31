@@ -1,9 +1,4 @@
 <?php
-	// define ("DB_HOST", "sql102.epizy.com");
-	// define ("DB_NAME", "epiz_30751051_MAIN");
-	// define ("DB_USER", "epiz_30751051");
-	// define ("DB_PASS", "hJokka5mi5");
-
 	define ("DB_HOST", "localhost");
 	define ("DB_NAME", "MAIN");
 	define ("DB_USER", "root");
